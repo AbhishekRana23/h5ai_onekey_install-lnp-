@@ -314,8 +314,8 @@ main(){
 	echo -e "1. h5ai"
 	echo -e "2. SSL"
 	echo -e "3. h5ai+SSL"
-	read -p "input:" number
-	case ${number} in
+	read -p "input:" 3
+	case ${3} in
 		1)
             standard
             echo -e "${OK} ${GreenBG} h5ai 安装成功 ${Font}"
